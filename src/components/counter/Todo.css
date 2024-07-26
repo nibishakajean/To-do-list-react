@@ -1,0 +1,30 @@
+li{
+    background-color: wheat;
+    border: 1px solid #ddd;
+    margin-top: 5px;
+    border-radius: 3px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 10px;
+    color: black;
+    font-size: 1.3rem;
+
+}
+ li button{
+    background-color: red;
+    color: wheat;
+    border: none;
+    border-radius: 3px;
+    padding: 5px 10px;
+    cursor: pointer;
+    margin: 0 1px;
+    width: 70px;
+ }
+ li.button.ckeck{
+    background-color: blue;
+ }
+
+ .done{
+    text-decoration: line-through;
+ }
